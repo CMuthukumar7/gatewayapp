@@ -1,0 +1,189 @@
+2023-12-01 11:54:06.129 INFO  com.rest.gateway.GatewayApplication - args value : {} 
+2023-12-01 11:54:06.528 INFO  com.rest.gateway.GatewayApplication - Starting GatewayApplication using Java 1.8.0_271 on LAPTOP-K41MBKJV with PID 18512 (C:\Users\sende\Projects\Gateway-v2\target\classes started by sende in C:\Users\sende\Projects\Gateway-v2)
+2023-12-01 11:54:06.529 INFO  com.rest.gateway.GatewayApplication - No active profile set, falling back to 1 default profile: "default"
+2023-12-01 11:54:07.369 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (https)
+2023-12-01 11:54:07.376 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-9091"]
+2023-12-01 11:54:07.377 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-12-01 11:54:07.379 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-12-01 11:54:07.502 INFO  o.a.c.c.C.[.[.[/directdebit] - Initializing Spring embedded WebApplicationContext
+2023-12-01 11:54:07.502 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 939 ms
+2023-12-01 11:54:07.554 INFO  c.rest.gateway.GatewayConfiguration - Java Version Value : 1.8.0_271 
+2023-12-01 11:54:07.748 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_RSA_WITH_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_DHE_DSS_WITH_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_RSA_WITH_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_DHE_DSS_WITH_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_RSA_WITH_AES_256_CBC_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_DHE_DSS_WITH_AES_256_CBC_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_RSA_WITH_AES_256_CBC_SHA 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDH_RSA_WITH_AES_256_CBC_SHA 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_DHE_RSA_WITH_AES_256_CBC_SHA 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_DHE_DSS_WITH_AES_256_CBC_SHA 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_RSA_WITH_AES_128_CBC_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_DHE_DSS_WITH_AES_128_CBC_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_RSA_WITH_AES_128_CBC_SHA 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_ECDH_RSA_WITH_AES_128_CBC_SHA 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_DHE_RSA_WITH_AES_128_CBC_SHA 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_DHE_DSS_WITH_AES_128_CBC_SHA 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - availableCiphers Ciphers => TLS_EMPTY_RENEGOTIATION_INFO_SCSV 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_RSA_WITH_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_DHE_RSA_WITH_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_DHE_DSS_WITH_AES_256_GCM_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_RSA_WITH_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_DHE_RSA_WITH_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_DHE_DSS_WITH_AES_128_GCM_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_RSA_WITH_AES_256_CBC_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_DHE_RSA_WITH_AES_256_CBC_SHA256 
+2023-12-01 11:54:07.749 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_DHE_DSS_WITH_AES_256_CBC_SHA256 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_RSA_WITH_AES_256_CBC_SHA 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDH_RSA_WITH_AES_256_CBC_SHA 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_DHE_RSA_WITH_AES_256_CBC_SHA 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_DHE_DSS_WITH_AES_256_CBC_SHA 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_RSA_WITH_AES_128_CBC_SHA256 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_DHE_RSA_WITH_AES_128_CBC_SHA256 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_DHE_DSS_WITH_AES_128_CBC_SHA256 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_RSA_WITH_AES_128_CBC_SHA 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_ECDH_RSA_WITH_AES_128_CBC_SHA 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_DHE_RSA_WITH_AES_128_CBC_SHA 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_DHE_DSS_WITH_AES_128_CBC_SHA 
+2023-12-01 11:54:07.750 INFO  c.rest.gateway.GatewayConfiguration - default Ciphers => TLS_EMPTY_RENEGOTIATION_INFO_SCSV 
+2023-12-01 11:54:07.752 INFO  c.rest.gateway.GatewayConfiguration - Application property values : ApplicationProperties [jksFileName=C://Users//o16943//check//goldrun.jks, passCode=goldrun123, pathPattern=null, fabUrl=https://172.28.137.41:2021] 
+2023-12-01 11:54:07.752 INFO  c.rest.gateway.GatewayConfiguration - JKS file name value : C://Users//o16943//check//goldrun.jks 
+2023-12-01 11:54:07.752 INFO  c.rest.gateway.GatewayConfiguration - Passcode value : goldrun123 
+2023-12-01 11:54:07.754 ERROR c.rest.gateway.GatewayConfiguration - Exception raised, in getRequestFactory method : {} 
+java.io.FileNotFoundException: C:\Users\o16943\check\goldrun.jks (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.rest.gateway.GatewayConfiguration.getRequestFactory(GatewayConfiguration.java:83)
+	at com.rest.gateway.GatewayConfiguration.getRestTemplate(GatewayConfiguration.java:63)
+	at com.rest.gateway.GatewayConfiguration$$EnhancerBySpringCGLIB$$5012374d.CGLIB$getRestTemplate$0(<generated>)
+	at com.rest.gateway.GatewayConfiguration$$EnhancerBySpringCGLIB$$5012374d$$FastClassBySpringCGLIB$$8457b820.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.rest.gateway.GatewayConfiguration$$EnhancerBySpringCGLIB$$5012374d.getRestTemplate(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.rest.gateway.GatewayApplication.main(GatewayApplication.java:30)
+2023-12-01 11:54:07.758 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayWebService': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-12-01 11:54:07.760 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-12-01 11:54:07.769 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-01 11:54:07.787 ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayWebService': Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.rest.gateway.GatewayApplication.main(GatewayApplication.java:30)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1801)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1396)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted

@@ -1,0 +1,6 @@
+com\rest\gateway\GatewayConfiguration.class
+com\rest\gateway\GatewayConfiguration$2.class
+com\rest\gateway\GatewayConfiguration$1.class
+com\rest\gateway\helper\ApplicationProperties.class
+com\rest\gateway\webservice\GatewayWebService.class
+com\rest\gateway\GatewayApplication.class
